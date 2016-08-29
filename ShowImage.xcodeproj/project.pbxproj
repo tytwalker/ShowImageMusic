@@ -7,14 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65AC05C51D6F953500FC361E /* 1472177058_Play1Disabled copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 65AC05C11D6F953500FC361E /* 1472177058_Play1Disabled copy.png */; };
+		65AC05C61D6F953500FC361E /* 1472177058_Play1Disabled.png in Resources */ = {isa = PBXBuildFile; fileRef = 65AC05C21D6F953500FC361E /* 1472177058_Play1Disabled.png */; };
+		65AC05C71D6F953500FC361E /* 1472177045_PauseDisabled copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 65AC05C31D6F953500FC361E /* 1472177045_PauseDisabled copy.png */; };
+		65AC05C81D6F953500FC361E /* 1472177045_PauseDisabled.png in Resources */ = {isa = PBXBuildFile; fileRef = 65AC05C41D6F953500FC361E /* 1472177045_PauseDisabled.png */; };
+		65AC05CB1D6F9F4E00FC361E /* 14 I Do Believe in Fairies copy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65AC05CA1D6F9F4E00FC361E /* 14 I Do Believe in Fairies copy.mp3 */; };
 		65B971681D5A7EF30088E0C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B971671D5A7EF30088E0C3 /* AppDelegate.swift */; };
 		65B9716A1D5A7EF30088E0C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B971691D5A7EF30088E0C3 /* ViewController.swift */; };
 		65B9716D1D5A7EF30088E0C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65B9716B1D5A7EF30088E0C3 /* Main.storyboard */; };
 		65B9716F1D5A7EF30088E0C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65B9716E1D5A7EF30088E0C3 /* Assets.xcassets */; };
 		65B971721D5A7EF30088E0C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65B971701D5A7EF30088E0C3 /* LaunchScreen.storyboard */; };
+		65B9717C1D5A81B90088E0C3 /* Apple Swift Logo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 65B9717B1D5A81B90088E0C3 /* Apple Swift Logo.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		65AC05C11D6F953500FC361E /* 1472177058_Play1Disabled copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1472177058_Play1Disabled copy.png"; sourceTree = "<group>"; };
+		65AC05C21D6F953500FC361E /* 1472177058_Play1Disabled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1472177058_Play1Disabled.png; sourceTree = "<group>"; };
+		65AC05C31D6F953500FC361E /* 1472177045_PauseDisabled copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1472177045_PauseDisabled copy.png"; sourceTree = "<group>"; };
+		65AC05C41D6F953500FC361E /* 1472177045_PauseDisabled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1472177045_PauseDisabled.png; sourceTree = "<group>"; };
+		65AC05CA1D6F9F4E00FC361E /* 14 I Do Believe in Fairies copy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "14 I Do Believe in Fairies copy.mp3"; sourceTree = "<group>"; };
 		65B971641D5A7EF20088E0C3 /* ShowImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShowImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65B971671D5A7EF30088E0C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65B971691D5A7EF30088E0C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +33,7 @@
 		65B9716E1D5A7EF30088E0C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65B971711D5A7EF30088E0C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65B971731D5A7EF30088E0C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65B9717B1D5A81B90088E0C3 /* Apple Swift Logo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Apple Swift Logo.jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,9 +47,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		65AC05C91D6F956800FC361E /* Play/Pause Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				65AC05C11D6F953500FC361E /* 1472177058_Play1Disabled copy.png */,
+				65AC05C21D6F953500FC361E /* 1472177058_Play1Disabled.png */,
+				65AC05C31D6F953500FC361E /* 1472177045_PauseDisabled copy.png */,
+				65AC05C41D6F953500FC361E /* 1472177045_PauseDisabled.png */,
+				65AC05CA1D6F9F4E00FC361E /* 14 I Do Believe in Fairies copy.mp3 */,
+			);
+			name = "Play/Pause Buttons";
+			sourceTree = "<group>";
+		};
 		65B9715B1D5A7EF20088E0C3 = {
 			isa = PBXGroup;
 			children = (
+				65B9717B1D5A81B90088E0C3 /* Apple Swift Logo.jpeg */,
 				65B971661D5A7EF30088E0C3 /* ShowImage */,
 				65B971651D5A7EF20088E0C3 /* Products */,
 			);
@@ -54,6 +79,7 @@
 		65B971661D5A7EF30088E0C3 /* ShowImage */ = {
 			isa = PBXGroup;
 			children = (
+				65AC05C91D6F956800FC361E /* Play/Pause Buttons */,
 				65B971671D5A7EF30088E0C3 /* AppDelegate.swift */,
 				65B971691D5A7EF30088E0C3 /* ViewController.swift */,
 				65B9716B1D5A7EF30088E0C3 /* Main.storyboard */,
@@ -96,6 +122,8 @@
 				TargetAttributes = {
 					65B971631D5A7EF20088E0C3 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = G8QE7WR846;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -123,7 +151,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				65B971721D5A7EF30088E0C3 /* LaunchScreen.storyboard in Resources */,
+				65AC05CB1D6F9F4E00FC361E /* 14 I Do Believe in Fairies copy.mp3 in Resources */,
+				65B9717C1D5A81B90088E0C3 /* Apple Swift Logo.jpeg in Resources */,
+				65AC05C81D6F953500FC361E /* 1472177045_PauseDisabled.png in Resources */,
 				65B9716F1D5A7EF30088E0C3 /* Assets.xcassets in Resources */,
+				65AC05C61D6F953500FC361E /* 1472177058_Play1Disabled.png in Resources */,
+				65AC05C51D6F953500FC361E /* 1472177058_Play1Disabled copy.png in Resources */,
+				65AC05C71D6F953500FC361E /* 1472177045_PauseDisabled copy.png in Resources */,
 				65B9716D1D5A7EF30088E0C3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,10 +283,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ShowImage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example2.ShowImage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -260,10 +298,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ShowImage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example2.ShowImage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -286,6 +328,7 @@
 				65B971781D5A7EF30088E0C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
